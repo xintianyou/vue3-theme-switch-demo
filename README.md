@@ -2,6 +2,8 @@
 
 这是一个vue3网站切换主题的demo，使用了css变量，IE忽略。
 
+![](./test3.gif)
+
 ## Project Setup
 
 ```sh
