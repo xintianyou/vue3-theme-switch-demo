@@ -6,7 +6,6 @@
     active-color="#2f2f2f"
     active-value="dark"
     inactive-value="light"
-    @change="changeDark"
   ></el-switch>
 </template>
 
@@ -17,8 +16,10 @@
 
   const { theme } = useTheme()
 
+  // 不需要这个方法，v-model已经双向绑定了
   const changeDark = (data) => {
-    theme.value === data
+    console.log('data', data)
+    theme.value = data
   }
 </script>
 
